@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2? family= Inter:wght@200;300;400;500 & display=swap');
+*{
+  padding: 0;
+  margin: 0;
+}
+body {
+    font-family: 'Inter', sans-serif;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.topo{
+   display: flex;
+   justify-content: space-between;
+   padding-top: 25px;
+   align-items: center;
+}
+
+ul{
+  display: flex;
+  justify-content: center;
+}
+li{
+  list-style-type: none;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+a{
+  text-decoration: none;
+  color: rgb(180, 146, 118);
+}
+.botao-secundario{
+  border: 1px solid rgb(34, 34, 34);
+  border-radius: 5px;
+}
+img{
+  width: 550px;
+}
+.corpo{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.esquerda{
+  display: flex;
+  flex-direction:column ;
+}
+p{
+  font-size:18px;
+  font-weight: 125;
+}
+h1{
+  font-size:25px;
+  font-weight: 185;
+}
+.botao-primario{
+  background-color: rgb(182, 158, 126);
+  color: antiquewhite;
+  font-size:24px ;
+  border-radius:25px ;
+  text-align: center;
+  padding:10px ;
+}
+p,h1{
+  padding:15px ;
+}
