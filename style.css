@@ -4,63 +4,118 @@
   margin: 0;
 }
 body {
-    font-family: 'Inter', sans-serif;
-  padding-left: 50px;
-  padding-right: 50px;
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
 }
 
 .topo{
    display: flex;
+   padding: 20px 80px;
    justify-content: space-between;
-   padding-top: 25px;
-   align-items: center;
 }
 
 ul{
   display: flex;
   justify-content: center;
 }
+
 li{
   list-style-type: none;
   padding-left: 12px;
   padding-right: 12px;
 }
+
 a{
   text-decoration: none;
-  color: rgb(180, 146, 118);
+  color: rgb(0,0,0);
 }
+
 .botao-secundario{
-  border: 1px solid rgb(34, 34, 34);
+  border: 1px solid rgb(0, 0, 0);
   border-radius: 5px;
 }
+
 img{
-  width: 550px;
+  width: auto;
+  height: 50vh;
 }
+
 .corpo{
   display: flex;
-  justify-content: space-between;
+  flex-direction: row;
+  justify-content: center;
   align-items: center;
 }
+.produtos{
+  padding: 0px 80px;
+}
+
 .esquerda{
   display: flex;
   flex-direction:column ;
+  justify-content: center;
+  padding-left: 80px;
+  background-color: #D5BDAF;
+  width: fit-content;
+  height: 50vh;
 }
+
+.direita{
+  display: flex;
+  flex-direction:column ;
+  width: 50%;
+}
+
 p{
+  max-width: 70%;
   font-size:18px;
-  font-weight: 125;
+  font-weight: 200;
 }
+
 h1{
-  font-size:25px;
-  font-weight: 185;
+  font-size:28px;
+  font-weight: 800;
 }
+
+.tituloProdutos{
+  display: flex;
+  flex-direction: column;
+  padding: 0px 80px;
+}
+
+.sectionProdutos{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 80px;
+}
+
+.produto{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  padding: 0 20px;
+}
+
+.produto img{
+  border-radius: 20px;
+  height: 200px;
+  width: 200px;
+}
+
 .botao-primario{
   background-color: rgb(182, 158, 126);
   color: antiquewhite;
-  font-size:24px ;
+  font-size:18px ;
   border-radius:25px ;
   text-align: center;
-  padding:10px ;
+  padding: 10px 20px ;
+  width: 200px;
 }
 p,h1{
   padding:15px ;
 }
+
