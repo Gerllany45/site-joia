@@ -11,26 +11,29 @@
 </head>
 
 <body>
-    <section class="topo">
-        <a href="index.html"><img src="imagens/Logo.png" alt=""></a>
-        <section class="menubar">
-            <ul>
-                <a href="">
-                    <li>pagina inicial</li>
-                </a>
-                <a href="https://www.agpet.com.br/#">
-                    <li>sobre</li>
-                </a>
-                <a href="https://github.com/Gerllany45">
-                    <li>contato</li>
-                </a>
-                <a class="botao-secundario" href="https://www.agpet.com.br/#">
-                    <li>quero comprar</li>
-                </a>
-            </ul>
-        </section>
+  
 
-    </section>
+    <section class="topo">
+        <a href="index.html"><img src="imagens/Logo.png" alt="" /></a>
+        <nav class="menu-lateral">
+          <ion-icon
+                class="botao-menu-close"
+                name="close-outline"
+                onclick="toggleMenu()"></ion-icon>
+          <ul>
+              <a href="index.html"><li>Página inicial</li></a>
+            <a href="#produtos"><li>Produtos</li></a>
+            <a href="#beneficios"><li>Benefícios</li></a>
+            <a href="#sobre-nos"><li>Sobre nós</li></a>
+            <a class="botao-primario" href="">Comprar agora!</a>
+          </ul>
+        </nav>
+        <ion-icon
+          class="botao-menu toggle-menu"
+          name="menu-outline"
+          onclick="toggleMenu()"
+        ></ion-icon>
+      </section>
     <section class="corpo">
         <section class="esquerda">
             <h1>Essenciale</h1>
@@ -141,5 +144,6 @@
     </footer>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
